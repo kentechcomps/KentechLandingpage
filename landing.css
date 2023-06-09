@@ -57,14 +57,23 @@ footer{
     background: rgb(78, 72, 72);
     height: auto;
     width: 100vw;
+    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top:0;
     margin-top: 300px;
     color: aliceblue;
 }
+.footercontent p{
+    text-align: center;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
 .footercontent{
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     flex-direction: column;
     text-align: center;
@@ -81,7 +90,7 @@ footer{
 .footercontent ul li a{
     font-size: large;
     transition:  color .4s ease;
-    color: White
+
 }
 .footercontent ul li :hover a{
     color: aqua;
@@ -92,6 +101,15 @@ footer{
     width: 100vw;
     padding: 20px 0;
     text-align: center;
+    justify-content: center;
 }
+.footerbottom p{ 
+    text-align: center;
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
 
 
