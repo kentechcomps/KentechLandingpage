@@ -22,7 +22,7 @@ nav ul li{
     padding: 20px;
     margin-right: 50px
 }
-P{
+#Companydescription P{
     font-size: xx-large;
 }
 #name{
@@ -42,6 +42,7 @@ P{
     margin-top: 60px;
 }
 #img{
+
     margin-right: 100px;
 }
 #img img{
@@ -52,4 +53,45 @@ P{
 h2{
     font-weight: 500;
 }
+footer{
+    background: rgb(78, 72, 72);
+    height: auto;
+    width: 100vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:0;
+    margin-top: 300px;
+    color: aliceblue;
+}
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footercontent ul {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footercontent ul li{ 
+ flex-direction: column;
+ margin: 0 10px;
+}
+.footercontent ul li a{
+    font-size: large;
+    transition:  color .4s ease;
+    color: White
+}
+.footercontent ul li :hover a{
+    color: aqua;
+
+}
+.footerbottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
 
