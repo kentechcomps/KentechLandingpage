@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url(./images/vr.jpeg);  
     margin: 0;
     padding: 0;
 }
@@ -72,6 +72,7 @@ footer{
 
 }
 .footercontent{
+    height: 300px;
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -110,6 +111,119 @@ footer{
     line-height: 28px;
     font-size: 14px;
 }
+.subscribeformcontainer{
+    height: 50px;
+    position: relative;
+}
+.subscribeformcontainer #Subscribeform{
+   height: 100%;
+   width: 450px;
+   padding-left: 50px;
+   font-size: 18px;
+   outline: none;
+   border-radius: 50px;
+   border : 2px solid coral;
+}
+.subscribeformcontainer button{
+    position: absolute;
+    top: 150%;
+    right: 900px;
+    transform:translate(-50% , -50%);
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #0be666;
+    outline: none;
+    background: #0be666;
+}
+.subscribeformcontainer button:hover{
+  background-color: azure;
+  }
+.sectiontitle{
+    margin: 3% 0;
+}
+.sectiontitle h2{
+    transform: uppercase;
+}
+.sectiontitle p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.singleteam{
+    padding-bottom: 70px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px #000;
+}
+.team-img{
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+.team-img img{
+    width: 100%;
+    transition: 0.3s ;
+}
+.team-img #img1{
+  width: 300px;
+  height: auto;
+}
+.singleteam:hover .team-img img{
+   transform: scale(1,1);
+}
+.teamcontent{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    bottom: 0;
+    transition: all 0.4s;
+    background: tomato;
+    z-index: 5;
+}
+.singleteam:hover .teamcontent{
+    height: 150px;
+    background: #000;
+}
+.team-info{
+    padding: 5px 20px 5px 20px;
+    transition: all .5s;
+}
+.singleteam:hover .teamcontent .team-info h3{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 16px;
+}
+.team-info p{
+    margin-top: 15px;
+    color: aliceblue;
+}
+.Teamtext{
+    color: #fff;
+    padding:  0 10px;
 
+}
+#container{
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#container .colmd3{
+    height: 100px;
+    width: 1000px;
+    flex: 25%;
+    margin-left: 40px;
+}
+.colmd12{
+    text-align: center;
+}
+.colmd12 .sectiontitle.h2{
+    font-weight: 1000;
+}
+.team-img img{
+
+}
 
 
